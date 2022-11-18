@@ -1,0 +1,317 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Карточка</title>
+</head>
+
+<body class="page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+    <div class="header__inner">
+        <a href="" class="header__logo logo">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="header__mob">
+            <nav class="nav">
+                <a href="" class="nav__link">Проверка сервисов</a>
+                <a href="" class="nav__link">Реклама</a>
+                <a href="" class="nav__link">Контакты</a>
+                <a href="" class="nav__link">Пользовательское соглашение</a>
+            </nav>
+            <button class="header__btn mbtn mbtn-primary">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 8V11M12 11V14M12 11H15M12 11H9" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span>Добавить сервис</span>
+            </button>
+        </div>
+        <button class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="catalog-item tabs-block">
+                <div class="container">
+                    <div class="catalog-item__grid">
+                        <main class="catalog-item__content">
+                            <div class="catalog-item__card">
+                                <div class="catalog-card__place">
+                                    <div class="catalog-card__place-num">1</div>
+                                    <div class="catalog-card__place-title">место</div>
+                                </div>
+<!--                                Если нужен красный вариант, то берите ниже-->
+<!--                                <div class="catalog-card__place catalog-card__place&#45;&#45;red">-->
+<!--                                    <svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path d="M5.78693 6.04545L5.45455 18.267H2.33523L1.99432 6.04545H5.78693ZM3.89489 23.7216C3.33239 23.7216 2.84943 23.5227 2.44602 23.125C2.04261 22.7216 1.84375 22.2386 1.84943 21.6761C1.84375 21.1193 2.04261 20.642 2.44602 20.2443C2.84943 19.8466 3.33239 19.6477 3.89489 19.6477C4.43466 19.6477 4.90909 19.8466 5.31818 20.2443C5.72727 20.642 5.93466 21.1193 5.94034 21.6761C5.93466 22.0511 5.83523 22.3949 5.64205 22.7074C5.45455 23.0142 5.20739 23.2614 4.90057 23.4489C4.59375 23.6307 4.25852 23.7216 3.89489 23.7216ZM13.5682 6.04545L13.2358 18.267H10.1165L9.77557 6.04545H13.5682ZM11.6761 23.7216C11.1136 23.7216 10.6307 23.5227 10.2273 23.125C9.82386 22.7216 9.625 22.2386 9.63068 21.6761C9.625 21.1193 9.82386 20.642 10.2273 20.2443C10.6307 19.8466 11.1136 19.6477 11.6761 19.6477C12.2159 19.6477 12.6903 19.8466 13.0994 20.2443C13.5085 20.642 13.7159 21.1193 13.7216 21.6761C13.7159 22.0511 13.6165 22.3949 13.4233 22.7074C13.2358 23.0142 12.9886 23.2614 12.6818 23.4489C12.375 23.6307 12.0398 23.7216 11.6761 23.7216ZM21.3494 6.04545L21.017 18.267H17.8977L17.5568 6.04545H21.3494ZM19.4574 23.7216C18.8949 23.7216 18.4119 23.5227 18.0085 23.125C17.6051 22.7216 17.4063 22.2386 17.4119 21.6761C17.4063 21.1193 17.6051 20.642 18.0085 20.2443C18.4119 19.8466 18.8949 19.6477 19.4574 19.6477C19.9972 19.6477 20.4716 19.8466 20.8807 20.2443C21.2898 20.642 21.4972 21.1193 21.5028 21.6761C21.4972 22.0511 21.3977 22.3949 21.2045 22.7074C21.017 23.0142 20.7699 23.2614 20.4631 23.4489C20.1562 23.6307 19.821 23.7216 19.4574 23.7216Z" fill="white"/>-->
+<!--                                    </svg>-->
+<!--                                </div>-->
+                                <div class="catalog-item__top">
+                                    <h1 class="catalog-item__title display2">Плати легко!</h1>
+                                    <img src="img/promo.svg" alt="" class="catalog-item__promo">
+                                </div>
+                                <div class="catalog-item__info">
+                                    <div class="catalog-item__info-top">
+                                        <div class="catalog-item__info-left">
+                                            <a href="" class="catalog-item__site mbtn mbtn-gray">
+                                                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.3">
+                                                        <path d="M7.5173 14.8967C11.1738 14.8967 14.138 11.9325 14.138 8.27596C14.138 4.61946 11.1738 1.65527 7.5173 1.65527C3.86079 1.65527 0.896606 4.61946 0.896606 8.27596C0.896606 11.9325 3.86079 14.8967 7.5173 14.8967Z" stroke="black" stroke-width="1.65517" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M4.86898 8.27596C4.86898 11.9325 6.05465 14.8967 7.51725 14.8967C8.97985 14.8967 10.1655 11.9325 10.1655 8.27596C10.1655 4.61946 8.97985 1.65527 7.51725 1.65527C6.05465 1.65527 4.86898 4.61946 4.86898 8.27596Z" stroke="black" stroke-width="1.65517" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M0.896606 8.27588H14.138" stroke="black" stroke-width="1.65517" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </g>
+                                                </svg>
+                                                <span>pay-saas.ru</span>
+                                            </a>
+                                            <div class="catalog-card__status">
+                                                <div class="catalog-card__status-item">
+                                                    <i class="catalog-card__status-icon">
+                                                        <img src="img/status.svg" alt="">
+                                                    </i>
+                                                    <span>Подтвержден</span>
+                                                </div>
+                                                <div class="catalog-card__status-item">
+                                                    <i class="catalog-card__status-icon">
+                                                        <img src="img/status2.svg" alt="">
+                                                    </i>
+                                                    <span>Проверен покупателем</span>
+                                                </div>
+                                            </div>
+                                            <div class="catalog-item__rating">
+                                            <div class="catalog-card__rating">
+                                                <img src="img/rating.svg" alt="">
+                                                <span>4,9</span>
+                                            </div>
+                                            <a href="" class="catalog-card__feedback-nums">Отзывов: 28</a>
+                                        </div>
+                                        </div>
+                                        <div class="catalog-item__screen">
+                                        <img src="img/screen2.webp" alt="">
+                                        <div class="catalog-item__share">
+                                            <div class="catalog-item__share-title body-text">Поделиться:</div>
+                                            <a href="" class="catalog-item__share-link">
+                                                <img src="img/telegram.svg" alt="">
+                                            </a>
+                                            <a href="" class="catalog-item__share-link">
+                                                <img src="img/ok.svg" alt="">
+                                            </a>
+                                            <a href="" class="catalog-item__share-link">
+                                                <img src="img/vk.svg" alt="">
+                                            </a>
+                                            <a href="" class="catalog-item__share-link">
+                                                <img src="img/whatsapp.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="product-detail">
+                                        <div class="product-detail__props">
+                                            <div class="product-detail__prop">
+                                                <div class="product-detail__icon">
+                                                    <img src="img/calendar.webp" alt="">
+                                                </div>
+                                                <div class="product-detail__text body-text">
+                                                    Дата регистрации домена: <time class="semi-bold-text" datetime="2022-03-27">27.03.2022</time>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail__prop">
+                                                <div class="product-detail__icon">
+                                                    <img src="img/percent.webp" alt="">
+                                                </div>
+                                                <div class="product-detail__text body-text">
+                                                    Комиссия: <span class="semi-bold-text">10-30%, не менее 200 руб</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-detail__info">
+                                            <div class="product-detail__group">
+                                                <div class="product-detail__title bold-text">Способ оплаты:</div>
+                                                <div class="product-detail__desc">
+                                                    передают платежные данные, доступы не просят
+                                                </div>
+                                            </div>
+                                            <div class="product-detail__group">
+                                                <div class="product-detail__title bold-text">Отзывы на других площадках:</div>
+                                                <div class="product-detail__sites">
+                                                    <a href="" class="product-detail__site mbtn mbtn-gray">Яндекс.Карты</a>
+                                                    <a href="" class="product-detail__site mbtn mbtn-gray">Baxov.Net</a>
+                                                    <a href="" class="product-detail__site mbtn mbtn-gray">Думай.Нет</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail__group">
+                                                <div class="product-detail__title bold-text">Экономические параметры:</div>
+                                                <div class="product-detail__desc">
+                                                    <span>Платежей в сутки: 350</span>
+                                                    <span>Средний чек: 390</span>
+                                                    <span>Оплата на юрлицо: да</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-item__hint">Данные получены на основании изучения сайта сервиса, а также на основании проведенной контрольной закупки</div>
+                            </div>
+
+                            <div class="about-service">
+                                <h2 class="about-service__title display3">О сервисе</h2>
+                                <div class="about-service__hint">ВНИМАНИЕ: на момент последней проверки сайт сервиса не работал! Возможно, сервис прекратил свою работу. Будьте аккуратны!</div>
+                                <div class="about-service__text body-text body-text--big">
+                                    <p>В нижней части сайта компании можно найти достаточное количество отзывов на ПэйСаас. Они представлены в виде скриншотов диалога в мессенджере Телеграмм. Если верить информации, содержащейся в них, то сервис вполне надежен, сотрудники вежливы, оплата проходит оперативно.</p>
+                                    <p>Из заявленного на сайте функционала стоит отметить возможность бесплатно получить номер карты без средств, выпущенной иностранным банком. Такие иногда нужны для активации премиального аккаунта или для получения скидки по промокоду. Пополнять счет иностранного сервиса не требуется, а без привязанной карты подписка не активируется. Компания заявляет о том, что, обратившись к оператору в мессенджере можно получить от него совершенно бесплатно данные платежной карты, на которой нет денег, как раз для подобных случаев.</p>
+                                    <p>Стандартный набор услуг включает в себя возможность обмена электронными документами для закрытия оплаты в бухгалтерии юридического лица, если это необходимо.</p>
+                                    <p>Для пересчета валютных платежей существует внутренний курс сервиса. Конкретные цифры можно увидеть в блоке вопросов. Кроме этого у оператора можно запрашивать индивидуальные условия комиссии при совершении крупных переводов.</p>
+                                    <p>Отзывы о PaySaas, можно найти, прокрутив страницу сайта практически в самый низ. В них также можно почерпнуть информацию об особенностях работы компании.</p>
+                                </div>
+                            </div>
+
+                            <div class="add-feedback">
+                                <h3 class="add-feedback__title display3">Оставить отзыв</h3>
+                                <form action="" class="add-feedback__form">
+                                    <div class="form-grid">
+                                        <fieldset class="fg">
+    <input type="text" placeholder="Ваше имя">
+    <img src="img/user.svg" alt="">
+</fieldset>
+<fieldset class="fg">
+    <input type="email" placeholder="Ваш e-mail">
+    <img src="img/main.svg" alt="">
+</fieldset>
+<fieldset class="fg fg--text">
+    <textarea placeholder="Текст отзыва"></textarea>
+    <img src="img/edit.svg" alt="">
+</fieldset>
+<fieldset class="fg">
+    <input type="text" placeholder="7+1 = ?">
+    <img src="img/fn.svg" alt="">
+</fieldset>
+
+                                        <div class="add-feedback__buttons">
+                                            <button class="add-feedback__btn mbtn mbtn-outline">Предпросмотр</button>
+                                            <button class="add-feedback__btn mbtn mbtn-primary">Отправить отзыв</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="catalog-feedback">
+                                <h3 class="catalog-feedback__title display3">Отзывы</h3>
+                                <div class="catalog-feedback__items">
+                                    <div class="feedback-card">
+                                        <div class="feedback-card__top">
+                                            <div class="feedback-card__img">
+                                                <img src="img/feedback.webp" alt="">
+                                            </div>
+                                            <div class="feedback-card__name">Роман С</div>
+                                        </div>
+                                        <div class="feedback-card__text body-text body-text--big">
+                                            <p>Оплачивал подписку в Miro — весь процесс занял 10 минут. Ребята сработали на отлично! Вежливое общение, очень рекомендую</p>
+                                        </div>
+                                        <div class="feedback-card__date body-text body-text--big">07.11.2022</div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="feedback-card__top">
+                                            <div class="feedback-card__img">
+                                                <img src="img/feedback.webp" alt="">
+                                            </div>
+                                            <div class="feedback-card__name">Денис П</div>
+                                        </div>
+                                        <div class="feedback-card__text body-text body-text--big">
+                                            <p>Отличный сервис. 01.11.2022 покупал модель на cults3d за 12,5$. Комиссия всего 200р. и все сверхоперативно.</p>
+                                            <p>Кстати, их более раскрученный на Яндексе конкурент (с комиссией в 3 раза больше) вообще не взялся за заказ без объяснения причин.</p>
+                                        </div>
+                                        <div class="feedback-card__date body-text body-text--big">02.11.2022</div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="feedback-card__top">
+                                            <div class="feedback-card__img">
+                                                <img src="img/feedback.webp" alt="">
+                                            </div>
+                                            <div class="feedback-card__name">Владимир Филатов</div>
+                                        </div>
+                                        <div class="feedback-card__text body-text body-text--big">
+                                            <p>Как здорово, что они есть!!! Отличники в своем деле!!! Максимально комфортно и понятно! Взаимодействие со специалистом, который который обьясняет исчерпывающе! Ощущается заинтересованность в решении твоего вопроса!</p>
+                                        </div>
+                                        <div class="feedback-card__date body-text body-text--big">31.10.2022</div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="feedback-card__top">
+                                            <div class="feedback-card__img">
+                                                <img src="img/feedback.webp" alt="">
+                                            </div>
+                                            <div class="feedback-card__name">Владимир Филатов</div>
+                                        </div>
+                                        <div class="feedback-card__text body-text body-text--big">
+                                            <p>Как здорово, что они есть!!! Отличники в своем деле!!! Максимально комфортно и понятно! Взаимодействие со специалистом, который который обьясняет исчерпывающе! Ощущается заинтересованность в решении твоего вопроса!</p>
+                                        </div>
+                                        <div class="feedback-card__date body-text body-text--big">31.10.2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                        <aside class="catalog-item__sidebar">
+                            <div class="catalog-item__banner">
+                                <img src="img/banner.png" alt="">
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+    <div class="footer__inner">
+        <div class="footer__col">
+            <a href="" class="footer__logo">
+                <img src="img/logo2.png" alt="">
+            </a>
+            <div class="footer__info">Вся информация на сайте носит ознакомительный характер. Администрация проекта не несет ответственности за личное мнение пользователей о каком-либо продукте.</div>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Информация на сайте</div>
+            <div class="footer__links">
+                <a href="" class="footer__link">Как мы проверяем сервисы</a>
+                <a href="" class="footer__link">Пользовательское соглашение</a>
+                <a href="" class="footer__link">Контакты</a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Сервисам</div>
+            <div class="footer__links">
+                <a href="" class="footer__link">Добавить сервис</a>
+                <a href="" class="footer__link">Реклама</a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <div class="footer__logo2 logo">
+                <img src="img/logo3.webp" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
